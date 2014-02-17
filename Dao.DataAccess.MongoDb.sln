@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao.DataAccess.MongoDb", "Dao.DataAccess.MongoDb\Dao.DataAccess.MongoDb.csproj", "{D04D127D-0099-458E-BD37-8113A2D4F055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao.DataAccess.MongoDbTests", "Dao.DataAccess.MongoDbTests\Dao.DataAccess.MongoDbTests.csproj", "{53D81AE8-18B3-44F1-A6D5-5611BD02BE27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D04D127D-0099-458E-BD37-8113A2D4F055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04D127D-0099-458E-BD37-8113A2D4F055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04D127D-0099-458E-BD37-8113A2D4F055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04D127D-0099-458E-BD37-8113A2D4F055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D81AE8-18B3-44F1-A6D5-5611BD02BE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D81AE8-18B3-44F1-A6D5-5611BD02BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D81AE8-18B3-44F1-A6D5-5611BD02BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D81AE8-18B3-44F1-A6D5-5611BD02BE27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
