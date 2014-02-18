@@ -15,9 +15,9 @@ namespace Dao.DataAccess.MongoDb
 
         internal MongoDbContext<T> DbContext { get; private set; }
 
-        public MongoDbRepository()
+        public MongoDbRepository(string connectionStringName = "")
         {
-            this.DbContext = new MongoDbContext<T>();
+            this.DbContext = new MongoDbContext<T>(connectionStringName);
         }
 
         #region Create
